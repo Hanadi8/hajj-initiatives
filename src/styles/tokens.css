@@ -1,0 +1,33 @@
+:root {
+ 
+  --color-primary: #0f3d37;        /* Deep Government Green */
+  --color-primary-dark: #0a2b27;   /* Darker shade للـ hover/footer */
+  --color-primary-light: #167f5c;  /* Medium Green */
+  --color-primary-soft: #2ba745;   /* Soft/Bright Green للتفاصيل والرسوم */
+  --color-accent: #c49a2c;         /* Gold / Warm Accent — يُستخدم باعتدال فقط */
+  --color-accent-light: #e7d29a;
+
+  --color-background: #ffffff;
+  --color-offwhite: #f5f7fa;
+  --color-surface: #ffffff;
+  --color-text: #101c1a;
+  --color-muted: #5b6b68;
+  --color-border: #e3e8e6;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 61, 55, 0.06), 0 1px 1px rgba(15, 61, 55, 0.04);
+  --shadow-md: 0 8px 24px rgba(15, 61, 55, 0.08);
+  --shadow-lg: 0 20px 45px rgba(15, 61, 55, 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
